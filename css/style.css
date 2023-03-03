@@ -4,6 +4,8 @@
 	--color-hover-menu:#4caf50;
 	--color-verde:#4caf50;
 	--color-titulos:#303030;
+	--color-subtitulo:#888;
+	--fondo-title:#f8f8f8;
 }
 body{
 	font-family: 'Open Sans', sans-serif;
@@ -98,6 +100,7 @@ h1,h2,h3,h4,h5,h6{
 	text-align: center;
 	font-weight: 400;
 	margin-bottom: 5%;
+	color: var(--color-subtitulo);
 }
 
 
@@ -111,31 +114,81 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 18px;
 }
 #services a{
-	font-size: 13px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #444;
 }
 #services a:hover{
-	color: var(--color-titulos);
-	text-decoration: none;
+	color: var(--color-verde);
 }
-#services a::before{
+#services a::after{
 	content: '\f061 ';
 	font-family: 'Line Awesome Free';
 	font-weight: 600;
 }
 
 
+#footer-info{
+	background-color: #1f2021;
+	padding: 45px 0;
+	color: #58606b;
+	font-size: 14px;
+}
+#footer-info h4{
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+#footer-copy{
+	background-color: #191919;
+	padding: 30px 0;
+	color: #58606b;
+	font-size: 14px;
+}
+
+#footer-copy i.lab{
+	background-color: #000;
+	color: #535353;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 35px;
+	text-align: center;
+	font-size: 20px;
+}
+#footer-copy .la-facebook-f:hover{
+	background-color: #3b5998;
+	color: #fff;
+}
+#footer-copy .la-instagram:hover{
+	background-color: #dd4b39;
+	color: #fff;
+}
+#footer-copy .la-linkedin-in:hover{
+	background-color: #007bb5;
+	color: #fff;
+}
+#footer-copy .la-twitter:hover{
+	background-color: #00aced;
+	color: #fff;
+}
+#footer-info a{
+	color:#58606b;
+	text-decoration: none;
+}
+#footer-info a:hover{
+	color:#4274b7;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+#title{
+	background-color: var(--fondo-title);
+	padding: 40px 0;
+}
+#title h1{
+	font-size: 26px;
+	font-weight: 400;
+}
 
 
 
